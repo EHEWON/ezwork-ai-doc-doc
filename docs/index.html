@@ -36,10 +36,18 @@
       notFoundPage: true,
       // 开启字数统计
       count:{
-        countable:true,
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'left',
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
-        language:'chinese'
+        language:'chinese',
+        localization: {
+          words: "",
+          minute: ""
+        },
+        isExpected: true
       },
       // 开启目录
       toc: {
@@ -72,10 +80,10 @@
   <script src="./js/zoom-image.min.js"></script>
   <!-- 代码复制到剪切板 -->
   <script src="./js/docsify-copy-code.min.js"></script>
-  <!-- 字数统计插件 -->
-  <script src="./js/countable.js"></script>
   <!-- 添加目录插件 -->
   <script src="./js/toc.js"></script>
+  <!-- 字数统计插件 -->
+  <script src="./js/countable.js"></script>
   <!-- 页脚增强插件 -->
   <script src="./js/docsify-footer-enh.min.js"></script>
   <!-- 黑白切换插件 -->
