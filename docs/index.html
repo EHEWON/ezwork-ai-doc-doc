@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./css/main.css">
   <!-- 添加目录css -->
   <link rel="stylesheet" href="./css/toc.css">
+  <!-- 面包屑导航css -->
+  <link rel="stylesheet" href="./css/breadcrumb.min.css">
 </head>
 <body>
   <div id="app"></div>
@@ -53,7 +55,16 @@
         style: 'text-align: left;',
         class: 'className',
       },
-    }
+      // 面包屑插件
+      breadcrumb: {
+        showHome: true,
+        homeText: 'Home',
+        separator: ' &rsaquo; ',
+        casing: 'capitalize',
+        linkColor: 'var(--theme-color, #42b983)',
+        size: 'small'
+      },
+  }
   </script>
   <!-- Docsify v4 -->
   <script src="./js/docsify@4.js"></script>
@@ -69,4 +80,6 @@
   <script src="./js/docsify-footer-enh.min.js"></script>
   <!-- 黑白切换插件 -->
   <script src="./js/docsify-dark-switcher.js"></script>
+  <!-- 面包屑导航插件 -->
+  <script src="./js/index.min.js"></script>
 </html>
