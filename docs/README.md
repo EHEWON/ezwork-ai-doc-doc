@@ -1,5 +1,7 @@
 # EZ-work AI官方文档
 
+---
+
 > 官网：[https://www.ehemart.com](https://www.ehemart.com)
 
 欢迎使用EZ-work AI官方文档，在这里您将可以系统性获取本程序安装部署、使用方面的知识。

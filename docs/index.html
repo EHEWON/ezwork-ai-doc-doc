@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./css/vue.css">
   <link rel="stylesheet" href="./css/main.css">
+  <!-- 添加目录css -->
+  <link rel="stylesheet" href="./css/toc.css">
 </head>
 <body>
   <div id="app"></div>
@@ -29,10 +31,42 @@
         'cache-control': 'max-age=600',
       },
       // 404页面自定义
-      notFoundPage: true
+      notFoundPage: true,
+      // 开启字数统计
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+      // 开启目录
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h2, h3',
+        title: '目录',
+      },
+      // 页脚增强插件
+      footer: {
+        copy: '<span>EZ-work AI文档翻译 &copy; 2024</span>',
+        auth: 'Powerd by EHEWON',
+        pre: '<hr/>',
+        style: 'text-align: left;',
+        class: 'className',
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="./js/docsify@4.js"></script>
-</body>
+  <!-- 图片缩放插件 -->
+  <script src="./js/zoom-image.min.js"></script>
+  <!-- 代码复制到剪切板 -->
+  <script src="./js/docsify-copy-code.min.js"></script>
+  <!-- 字数统计插件 -->
+  <script src="./js/countable.js"></script>
+  <!-- 添加目录插件 -->
+  <script src="./js/toc.js"></script>
+  <!-- 页脚增强插件 -->
+  <script src="./js/docsify-footer-enh.min.js"></script>
+  <!-- 黑白切换插件 -->
+  <script src="./js/docsify-dark-switcher.js"></script>
 </html>
