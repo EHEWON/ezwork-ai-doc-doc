@@ -1,0 +1,21 @@
+body {
+    font-family: "微软雅黑", Arial, sans-serif;
+}
+
+.sidebar>h1 {
+    text-align:left;
+}
+
+.sidebar>h1 a {
+    margin-left: 15px;
+    /* font-weight: 600; */
+}
+
+.markdown-section {
+    max-width: 1000px;
+    padding: 40px 20px;
+}
+
+.content {
+    padding-top: 30px;
+}

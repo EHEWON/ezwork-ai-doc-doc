@@ -8,15 +8,28 @@
   <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="./css/vue.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      // 文档标题
+      name: 'EZ-work AI官方文档',
       // 开启侧边栏
       loadSidebar: true,
       // 显示目录层级
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      // Github地址
+      repo: 'https://github.com/EHEWON/ezwork-ai-doc-translation',
+      // 跳转页面后自动切换到顶部
+      auto2top: true,
+      // 缓存设置
+      requestHeaders: {
+        'cache-control': 'max-age=600',
+      },
+      // 404页面自定义
+      notFoundPage: true
     }
   </script>
   <!-- Docsify v4 -->
