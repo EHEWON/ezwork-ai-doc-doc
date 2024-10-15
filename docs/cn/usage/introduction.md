@@ -113,4 +113,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 微信社群
 
-欢迎加入我们的微信交流群，如需加入，请添加作者微信进入：sunsky89757
+欢迎加入我们的微信交流群，如需加入，请添加微信好友邀请进入：sunsky89757
