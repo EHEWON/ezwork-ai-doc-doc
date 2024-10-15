@@ -32,7 +32,7 @@ EZ-work AI文档翻译拥有以下主要功能特色：
 
 ### 1. 在线使用
 
-如果你对应程序开发与部署不太了解，我们推荐直接通过EZ-work官方部署的**演示版**程序在线使用，本程序采用高性能、大带宽物理机搭建，拥有超高稳定性且能够支持多人高并发调用。访问地址：
+如果你对应程序开发与部署不太了解，我们推荐直接通过EZ-work AI官方部署的**演示版**程序在线使用，本程序采用高性能、大带宽物理机搭建，拥有超高稳定性且能够支持多人高并发调用。访问地址：
 
 [https://ezdemo.erui.com](https://ezdemo.erui.com)
 
@@ -77,10 +77,40 @@ EZ-work AI文档翻译拥有以下主要功能特色：
 
 ## 贡献指南
 
-## 许可证
+欢迎贡献、建议、错误报告和修复！对于新功能、组件或扩展，请先在[Github>>](https://github.com/EHEWON/ezwork-ai-doc-translation/issues)开一个 issue 进行讨论，然后再提交 PR。对于参与贡献者我们计划会在后续的进展中给予不定形式的奖励。包括但不限于：
+
+- 现金奖励
+- 物质奖励
+- 线下互动
+- 功能特权
+
+## 开源许可证
+
+本开源项目遵循MIT许可。
+
+```
+MIT License
+
+Copyright (c) 2024 LibreChat
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
 ## 开发计划
 
+2024年我们计划完善社区版核心功能：
+
+- 便捷的部署方式
+- 支持翻译更多种类的文档格式
+- 支持高质量的扫描件与图片翻译
+- 支持语料库功能
+- 在线预览
+- 多轮翻译
+
 ## 微信社群
 
-## OpenAI
+欢迎加入我们的微信交流群，如需加入，请添加作者微信进入：sunsky89757
