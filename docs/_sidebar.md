@@ -4,6 +4,7 @@
 * 程序使用
   * [程序介绍](cn/usage/introduction.md "程序介绍 - EZ-work AI文档翻译文档")
   * [使用设置](cn/usage/community.md "使用设置 - EZ-work AI文档翻译文档")
+  * [中转API设置](cn/usage/zhongzhuanapi.md "中转API设置 - EZ-work AI文档翻译文档")
   <!-- * [商业版](cn/usage/commercial.md "商业版 - EZ-work AI文档翻译文档") -->
 * 安装部署
   * [部署介绍](cn/deploy/introduction.md "部署介绍 - EZ-work AI文档翻译文档")
