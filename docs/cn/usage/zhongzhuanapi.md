@@ -40,6 +40,6 @@ docker run --name one-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 
 进入`令牌`菜单，创建并放入EZ-work AI进行使用，对应的接口为你当前访问的one-api地址，比如你的访问地址为`https://www.example.com`，则接口为`https://www.example.com/v1`
 
-> 如果你没有服务器，不懂部署，也可直接购买并使用EZ-work API提供的API：[注册送0.5美金，访问地址>>](https://api.ezworkapi.top)
+> 如果你没有服务器，不懂部署，也可直接购买并使用EZ-work API提供的API：[注册送0.5美金，访问地址>>](https://api.ezworkapi.top) 
 > 
 > EZ-work API使用方法[参考此文档>>](https://www.ezworkapi.com/zh/app-access/EZ-workAI.html)
